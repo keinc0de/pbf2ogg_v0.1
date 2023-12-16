@@ -1,5 +1,4 @@
 from pathlib import Path
-# from pprint import pprint
 
 
 class ArchivoPbf:
@@ -45,17 +44,4 @@ class ArchivoPbf:
             'horas':h, 'mimutos':m, 'segundos':s, 'milisegundos':ms,
             'tiempo':tm, 't':t
         }
-    
-    # def obten_valores(self, *valores):
-    #     marcadores = self.decode()
-    #     res = []
 
-        
-    
-
-# TEST
-# r1 = r'C:\Users\mortadela\Documents\Bandicam\bandicam 2023-12-11 19-08-06-626.mp4'
-# pbf1 = ArchivoPbf(r1)
-# _ = pbf1.decode()
-# print(len(_))
-# pprint(_[0])
