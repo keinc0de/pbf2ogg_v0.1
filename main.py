@@ -1,9 +1,7 @@
 import tkinter as tk
-# from tkinter import ttk
 from pathlib import Path
 from tkinterdnd2 import DND_FILES, TkinterDnD
 from pbf_decode import ArchivoPbf
-# from pprint import pprint
 
 
 class Ventana(TkinterDnD.Tk):
@@ -48,7 +46,6 @@ class Ventana(TkinterDnD.Tk):
             e = e[:-1]
         nom = Path(e).name
         self.title(nom)
-
         # LECTURA PBF
         self.valores_iniciales()
         pbf = ArchivoPbf(e)
